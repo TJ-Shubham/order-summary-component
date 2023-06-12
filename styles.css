@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: url(./images/pattern-background-desktop.svg) , hsl(225, 100%, 98%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+  background: #fff;
+  border-radius: 20px;
+  max-width: 27rem;
+}
+
+.hero-image img{
+    border-radius: 20px 20px 0 0;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 2em 0 1.6em 0;
+}
+
+.order-info{
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+    padding: 0 4em 2em 4.5em;
+    line-height: 1.5;
+}
+
+.annual-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-bar{
+    padding: 0 2em 0 1em;
+}
+
+h2{
+    color: hsl(223, 47%, 23%);
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.price{
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+}
+
+.annual-option{
+    padding: 0 0 0 2.5em;
+}
+
+.annual-option > a{
+    font-size: .8rem;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 3em 0;
+}
+
+.btn-bar{
+    height: 3em;
+    margin: 0 3.5em 0 3.5em;
+    border-radius: 10px;
+    font-size: .8rem;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.payment-bar{
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+}
+
+.cancel-bar{
+    color: hsl(224, 23%, 55%);
+}
