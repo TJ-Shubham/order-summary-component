@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Red Hat Display', sans-serif;
-    box-sizing: border-box;
-
 }
 
 body{
@@ -18,12 +16,13 @@ body{
 
 main{
   background: #fff;
-  border-radius: 20px;
-  max-width: 27rem;
+  border-radius: 22px;
+  max-width: 26rem;
+  box-shadow: 0 13px 17px 0px hsl(225, 100%, 94%);
 }
 
 .hero-image img{
-    border-radius: 20px 20px 0 0;
+    border-radius: 22px 22px 0 0;
     display: block;
     height: auto;
     width: 100%;
@@ -39,11 +38,11 @@ h1{
     color: hsl(223, 47%, 23%);
     font-size: 1.5rem;
     font-weight: 900;
-    padding: 2em 0 1.6em 0;
+    padding: 2em 0 1.1em 0;
 }
 
 .order-info{
-    font-size: 1rem;
+    font-size: .9rem;
     color: hsl(224, 23%, 55%);
     padding: 0 4em 2em 4.5em;
     line-height: 1.5;
@@ -61,13 +60,15 @@ h1{
 
 h2{
     color: hsl(223, 47%, 23%);
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 900;
+    padding-bottom: .3em;
 }
 
 .price{
     color: hsl(224, 23%, 55%);
-    font-size: 1rem;
+    font-size: .9rem;
+    padding-bottom: .2em;
 }
 
 .annual-option{
@@ -78,6 +79,11 @@ h2{
     font-size: .8rem;
     color: hsl(245, 75%, 52%);
     font-weight: 700;
+}
+
+.annual-option > a:hover{
+    opacity: .8;
+    text-decoration: none;
 }
 
 .btn{
@@ -97,13 +103,69 @@ h2{
     text-align: center;
     border: none;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .payment-bar{
     background: hsl(245, 75%, 52%);
     color: #fff;
+    box-shadow: 0px 15px 19px 0px hsl(225, 100%, 94%);
+   
 }
 
 .cancel-bar{
     color: hsl(224, 23%, 55%);
 }
+
+.payment-bar:hover{
+    opacity: .8;
+}
+
+.cancel-bar:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+}
+
+.attribution{
+    display: none; 
+}
+
+
+@media (max-width: 480px) {
+
+    body{
+        background: url(./images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    main {
+      max-width: 80%;
+    }
+  
+    h1{
+        font-size: 1.3rem;
+    }
+
+    .order-info {
+        padding: 0 3em 2em 4em;
+        font-size: .8rem;
+    }
+  
+    .annual-option {
+      padding: 0 0 0 1em;
+    }
+  
+    .btn-bar {
+      margin: 0 1.8em 0 1.8em;
+    }
+
+    .attribution{
+        display: block;
+        margin: 0 0 2em 0;
+        padding: 0;
+        text-align: center;
+        font-size: .68rem;
+    }
+}
+
