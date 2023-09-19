@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:  https://github.com/TJ-Shubham/order-summary-component
-- Live Site URL: https://tj-shubham.github.io/order-summary-component/
+- Solution URL: [Link](https://github.com/TJ-Shubham/order-summary-component)
+- Live Site URL: [Link](https://tj-shubham.github.io/order-summary-component/)
 
 ## My process
 
