@@ -40,6 +40,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Used media query
+- tailwind css
 
 
 ### What I learned
